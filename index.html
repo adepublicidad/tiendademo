@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600,700' rel='stylesheet' type='text/css'>
+    
+
+    <!-- Fuente de google -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Rozha+One&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <link rel="stylesheet" href="css/miestilo.css">
+
+    
+
+    <title>shopping Store</title>
+  </head>
+  <body>
+
+    <!-- Fixed Menu 
+  <div class="fixed-bottom text-center icono-menu">
+    <ul>
+      <li><a href=""><i class="fas fa-home"> <br> Inicio</i></a></li>
+      <li><a href=""><i class="fas fa-clone"><br> Categoria</i></a></li>
+      <li><a href=""><i class="fas fa-user-tie"><br> Nosotros</i></a></li>
+    </ul>
+    
+  </div> -->
+
+    <!--/////
+      Logotipo 
+    //////-->
+
+    <div class="container logotipo text-center">
+        <img src="img/logo.png" alt="">
+    </div>
+
+    <!-- 
+      Slidewr 
+    
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="container-carrusel">
+            <img src="https://image.shutterstock.com/image-photo/eshopping-happy-couple-using-credit-600w-1415977073.jpg" class="d-block w-100" alt="...">
+          </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="container-carrusel">
+              <img src="https://image.shutterstock.com/image-photo/young-woman-using-perfume-indoors-600w-1226509942.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-carrusel">
+              <img src="https://image.shutterstock.com/image-photo/casual-style-stylish-woman-sunglasses-600w-536935141.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+
+      <!-- 
+        Slider 2
+      -->
+
+      <section id="container-slider">	
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li style="background-image: url('https://image.shutterstock.com/image-photo/young-woman-using-perfume-indoors-600w-1226509942.jpg'); z-index:0; opacity: 1;">
+            <div class="content_slider" >
+              <div>
+                <h2>Nuevos Productos</h2>
+          <p>Mercancias recien llegadas a Panama</p>
+          <a href="#" class="btnSlider">Ver más</a>
+        </div>
+            </div>
+          </li>
+          <li style="background-image: url('https://image.shutterstock.com/image-photo/young-woman-using-perfume-indoors-600w-1226509942.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Entrega Inmediat</h2>
+          <p>Levamos el produco a tu hogar</p>
+          <a href="#" class="btnSlider">Ver más</a>
+        </div>
+            </div>
+          </li>
+          <li style="background-image: url('https://image.shutterstock.com/image-photo/casual-style-stylish-woman-sunglasses-600w-536935141.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>Experimenta la compra</h2>
+          <p>Compra en donde estes a tu ritmo</p>
+          <a href="#" class="btnSlider">Ver más</a>
+        </div>
+            </div>
+          </li>
+       </ul>
+     </section>
+
+      <!-- Nuevo Productos -->
+
+      <h2 class="text-center bg-fondo-titulo" >
+        <i class="fas fa-shopping-basket"></i>
+        Nuevos Productos
+      </h2>
+
+    <!-- 
+      Producto 
+    -->
+
+      <!-- Nuevos Productos -->
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+  <!-- Producto 1 -->
+  <div class="col">
+    <div class="card h-100">
+
+      <div class="product_sale">
+        <p>Nuevo</p>
+      </div>
+
+      <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <!-- Titulo del Producto -->
+        <a href="https://bit.ly/1myplK1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <h5 class="card-title">Pijamas Francesas</h5>
+        </a>
+        <!-- Precio y Rebaja -->
+        <div class="product_price pt-2">
+          <a href="#">
+            <span class="price_old">
+              $79.99
+            </span>               
+            <span class="price_new">
+              $69.99
+            </span>
+          </a>
+           <span class="product_rating"></span>
+        </div>
+        <!-- Descripción del Producto -->
+        <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <!-- Solicitar Icono Whatsaap -->
+        <div class="whatsapp_producto text-center">
+          <a href="">
+            <i class="fab fa-whatsapp-square"></i>
+          </a>
+        <!-- Solicitar Producto -->
+          <p class="solicitar-producto" >Solicitar Producto</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Producto 1 -->
+
+  <div class="col">
+    <div class="card h-100">
+
+      <div class="product_sale">
+        <p>Nuevo</p>
+      </div>
+
+      <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+
+        <!-- Titulo del Producto -->
+        <a href="https://bit.ly/1myplK1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <h5 class="card-title">Pijamas Francesas</h5>
+        </a>
+        <!-- Precio y Rebaja -->
+        <div class="product_price pt-2">
+          <a href="#">
+            <span class="price_old">
+              $79.99
+            </span>               
+            <span class="price_new">
+              $69.99
+            </span>
+          </a>
+           <span class="product_rating"></span>
+        </div>
+        <!-- Descripción del Producto -->
+        <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <!-- Solicitar Icono Whatsaap -->
+        <div class="whatsapp_producto text-center">
+          <a href="">
+            <i class="fab fa-whatsapp-square"></i>
+          </a>
+        <!-- Solicitar Producto -->
+          <p class="solicitar-producto" >Solicitar Producto</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Producto 2 -->
+
+  <div class="col">
+    <div class="card h-100">
+      
+      <div class="col">
+        <div class="card h-100">
+    
+          <div class="product_sale">
+            <p>Nuevo</p>
+          </div>
+    
+          <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+    
+            <!-- Titulo del Producto -->
+            <a href="https://bit.ly/1myplK1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              <h5 class="card-title">Pijamas Francesas</h5>
+            </a>
+            <!-- Precio y Rebaja -->
+            <div class="product_price pt-2">
+              <a href="#">
+                <span class="price_old">
+                  $79.99
+                </span>               
+                <span class="price_new">
+                  $69.99
+                </span>
+              </a>
+               <span class="product_rating"></span>
+            </div>
+            <!-- Descripción del Producto -->
+            <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <!-- Solicitar Icono Whatsaap -->
+            <div class="whatsapp_producto text-center">
+              <a href="">
+                <i class="fab fa-whatsapp-square"></i>
+              </a>
+            <!-- Solicitar Producto -->
+              <p class="solicitar-producto" >Solicitar Producto</p>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        
+
+      </div>
+      <div class="modal-body">
+        <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum enim animi eligendi. Veniam fuga deserunt in eaque. Incidunt accusantium exercitationem ratione unde, 
+          sit quas, est impedit quo obcaecati, reprehenderit cupiditate?</p>
+
+          <!-- Solicitar Icono Whatsaap -->
+      <div class="whatsapp_producto text-center">
+        <a href="">
+          <i class="fab fa-whatsapp-square"></i>
+        </a>
+      <!-- Solicitar Producto -->
+        <p class="solicitar-producto" >Solicitar Producto</p>
+      </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- 
+        Promociones
+      -->
+
+      <h2 class="text-center bg-fondo-titulo" >
+        <i class="fas fa-project-diagram"></i>
+        Promoción
+      </h2>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Producto 1 -->
+        <div class="col">
+          <div class="card h-100">
+      
+            <div class="product_sale">
+              <p>Nuevo</p>
+            </div>
+      
+            <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+      
+              <!-- Titulo del Producto -->
+              <a href="https://bit.ly/1myplK1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <h5 class="card-title">Pijamas Francesas</h5>
+              </a>
+              <!-- Precio y Rebaja -->
+              <div class="product_price pt-2">
+                <a href="#">
+                  <span class="price_old">
+                    $79.99
+                  </span>               
+                  <span class="price_new">
+                    $69.99
+                  </span>
+                </a>
+                 <span class="product_rating"></span>
+              </div>
+              <!-- Descripción del Producto -->
+              <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <!-- Solicitar Icono Whatsaap -->
+              <div class="whatsapp_producto text-center">
+                <a href="">
+                  <i class="fab fa-whatsapp-square"></i>
+                </a>
+              <!-- Solicitar Producto -->
+                <p class="solicitar-producto" >Solicitar Producto</p>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      
+        <!-- Producto 1 -->
+      
+        <div class="col">
+          <div class="card h-100">
+      
+            <div class="product_sale">
+              <p>Nuevo</p>
+            </div>
+      
+            <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+      
+              <!-- Titulo del Producto -->
+              <a href="https://bit.ly/1myplK1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <h5 class="card-title">Pijamas Francesas</h5>
+              </a>
+              <!-- Precio y Rebaja -->
+              <div class="product_price pt-2">
+                <a href="#">
+                  <span class="price_old">
+                    $79.99
+                  </span>               
+                  <span class="price_new">
+                    $69.99
+                  </span>
+                </a>
+                 <span class="product_rating"></span>
+              </div>
+              <!-- Descripción del Producto -->
+              <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <!-- Solicitar Icono Whatsaap -->
+              <div class="whatsapp_producto text-center">
+                <a href="">
+                  <i class="fab fa-whatsapp-square"></i>
+                </a>
+              <!-- Solicitar Producto -->
+                <p class="solicitar-producto" >Solicitar Producto</p>
+              </div>
+      
+            </div>
+          </div>
+        </div>
+      
+        <!-- Producto 2 -->
+      
+        <div class="col">
+          <div class="card h-100">
+            
+            <div class="col">
+              <div class="card h-100">
+          
+                <div class="product_sale">
+                  <p>Nuevo</p>
+                </div>
+          
+                <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+          
+                  <!-- Titulo del Producto -->
+                  <a href="https://bit.ly/1myplK1" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <h5 class="card-title">Pijamas Francesas</h5>
+                  </a>
+                  <!-- Precio y Rebaja -->
+                  <div class="product_price pt-2">
+                    <a href="#">
+                      <span class="price_old">
+                        $79.99
+                      </span>               
+                      <span class="price_new">
+                        $69.99
+                      </span>
+                    </a>
+                     <span class="product_rating"></span>
+                  </div>
+                  <!-- Descripción del Producto -->
+                  <p class="card-text pt-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <!-- Solicitar Icono Whatsaap -->
+                  <div class="whatsapp_producto text-center">
+                    <a href="">
+                      <i class="fab fa-whatsapp-square"></i>
+                    </a>
+                  <!-- Solicitar Producto -->
+                    <p class="solicitar-producto" >Solicitar Producto</p>
+                  </div>
+          
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>    
+
+
+      <!-- 
+        Productos por Categoria
+      -->
+
+      <h2 class="text-center bg-fondo-titulo" >
+        <i class="fas fa-gift"></i>
+        Productos por Categorias
+      </h2>
+
+      <!-- Producto 1 -->
+
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Categoria 1 -->
+          <div class="categoria-imagen col-md-3">
+            <img src="https://cdn.pixabay.com/photo/2018/08/27/15/09/safe-3635196_960_720.jpg" alt="">
+          <div class="titulo-descripcion">
+            <p>Perfume</p>
+          </div>
+        </div>
+
+        <!-- Categoria 2 -->
+
+        <div class="categoria-imagen col-md-3">
+          <img src="https://cdn.pixabay.com/photo/2016/02/19/10/56/hip-hop-1209499_960_720.jpg" alt="">
+        <div class="titulo-descripcion">
+          <p>Ropa</p>
+        </div>
+      </div>
+
+      <!-- Categoria 3 -->
+
+      <div class="categoria-imagen col-md-3">
+        <img src="https://cdn.pixabay.com/photo/2014/08/05/10/31/waiting-410328_960_720.jpg" alt="">
+      <div class="titulo-descripcion">
+        <p>Reloj</p>
+      </div>
+    </div>
+
+    <!-- Categoria 4 -->
+
+    <div class="categoria-imagen col-md-3">
+      <img src="https://cdn.pixabay.com/photo/2017/04/09/18/54/shoes-2216498_960_720.jpg" alt="">
+    <div class="titulo-descripcion">
+      <p>Zapato</p>
+    </div>
+  </div>
+
+        </div>
+      </div>
+
+  <!-- Fin de Producto -->
+
+  
+<!-- card personal -->
+
+      <!-- Slider-->
+    <script src="js/slider.js"></script>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+   
+    <!-- Lightbox -->
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+
+  </body>
+</html>
